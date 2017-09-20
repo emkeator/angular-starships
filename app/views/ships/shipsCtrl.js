@@ -5,7 +5,7 @@ angular.module('starships').controller('shipsCtrl',
   // Here we call the getShipList function from our service.  getShipList returns
   // a promise, so we call .then, inside our then we put the ships from the api
   // call onto $scope
-  shipSrvc.getShipList().then(ships=>$scope.ships = ships);
+  shipSrvc.getShipList().then(ships => $scope.ships = ships);
 })
 
 // In angular, we try to keep our controllers 'light' That means we want to put

@@ -13,7 +13,7 @@ angular.module('starships', ['ui.router'])
     url: '/ships/:id',
     // template: '<div>Single Ship State!</div>'
     templateUrl: 'app/views/ship/ship.html',
-    // controller: 'shipCtrl'
+    controller: 'shipCtrl'
         
   })
 
